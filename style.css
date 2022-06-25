@@ -1,0 +1,21 @@
+
+.header {
+    display: flex;
+    background-color: #1F2937 ;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.left, .right {
+    display: flex;
+    color: white;
+    font-family: "Hero";
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
