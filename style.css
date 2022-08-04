@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 
 .header {
     display: flex;
@@ -12,6 +17,11 @@
     font-family: "Hero";
 }
 
+.header .left {
+    font-weight: bold;
+}
+
+
 ul {
     list-style-type: none;
     display: flex;
@@ -19,3 +29,145 @@ ul {
     padding: 0;
     gap: 16px;
 }
+
+.big_text {
+    font-family:"Hero Main text" ;
+    font-size: 48px;
+}
+
+.text {
+    font-family:"Hero Main text" ;
+    font-size: 18px;
+}
+
+
+.top {
+    display: flex;
+    background: #1F2937 ;
+    padding: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+
+.top .left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    gap: 8px;
+}
+
+.top .right {
+    
+    background: gray;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f8 ;
+    font-weight: bold;
+    color: white;
+    padding: 8px 24px;
+    width: 100px;
+}
+
+.topmid {
+    flex: 1;
+    text-align: center;
+    background: white;
+    padding: 30px;
+}
+
+.topmid .big_text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 60px;
+}
+
+.can {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+
+}
+
+.canned {
+    max-width: 200px;
+    
+}
+
+.box {
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #3882f8;
+    border-width: 5px;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.bottommid{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    justify-content: center;
+    padding: 100px;
+
+}
+
+.bottommid .big_text {
+    font: 1ight italic;
+    color: #1F2937;
+    font-size: 36px;
+    align-self: center;
+    width: 800px;
+}
+
+.bottommid .text{
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.bottom {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    background-color: #3882f8;
+    color: white;
+    height: auto;
+    padding: 50px 100px;
+    gap: 200px;
+    justify-content: center;
+}
+
+.container .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .button {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    height: 50px;
+    width: 200px;
+    align-self: center;
+}     
